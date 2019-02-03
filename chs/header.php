@@ -20,6 +20,20 @@
 <?php endif; ?>
 
 <?php wp_head(); ?>
+<style type="text/css">
+	@media only screen and (min-width: 1024px){
+		.site-title a, .site-title a:hover, .site-description {
+			color:#49564b;
+		}
+		.site-header.float-header .site-title a,
+		.site-header.float-header .site-title a:hover {
+			color:#f7f7ff;
+		}
+	}
+	.site-header.float-header .site-description {
+		color:#95a29d;
+	}
+</style>
 </head>
 
 <body <?php body_class(); ?>>
